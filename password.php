@@ -28,7 +28,7 @@ if(mysqli_num_rows($consulta2)>0){
     if($resultado){
 
         echo'<script type="text/javascript">
-        alert("los datos se restablecieron y la contrasena es:'.$contrasena.' ");
+        alert("Los datos se han restablecido y la contrasena es:'.$contrasena.' ");
         window.location.href="login.php";
         </script>';
 
